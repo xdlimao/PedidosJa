@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PedidosJa" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/orange</item>
+    </style>
+
+    <style name="Theme.PedidosJa" parent="Base.Theme.PedidosJa" />
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PedidosJa</string>
+    <string name="passwordtext">Insira a sua senha para acessar a aplicação.</string>
+    <string name="validadetext">Validar</string>
+    <string name="welcome">Bem-vindo!</string>
+    <string name="notephotodescription">Foto de um bloco de notas</string>
+</resources>
