@@ -7,4 +7,124 @@
     android:layout_height="match_parent"
     tools:context=".activities.HomeActivity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.40">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/customersbutton"
+                android:layout_width="124dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="479dp">
+
+                <ImageView
+                    android:id="@+id/customersimagebutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/customers_icon" />
+
+                <TextView
+                    android:id="@+id/customerstextbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="46dp"
+                    android:text="@string/customers" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="124dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="365dp">
+
+                <ImageView
+                    android:id="@+id/productimagebutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/product_icon" />
+
+                <TextView
+                    android:id="@+id/producttextbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="46dp"
+                    android:text="@string/products" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <FrameLayout
+                android:layout_width="124dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="479dp">
+
+                <ImageView
+                    android:id="@+id/editcreateimagebutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/editcreate_icon" />
+
+                <TextView
+                    android:id="@+id/editcreatetextbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="46dp"
+                    android:text="@string/editcreate_order" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="124dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="365dp">
+
+                <ImageView
+                    android:id="@+id/inspectimagebutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/inspect_icon" />
+
+                <TextView
+                    android:id="@+id/inspecttextbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="46dp"
+                    android:text="@string/inspect_order" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

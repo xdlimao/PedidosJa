@@ -4,4 +4,9 @@
     <string name="validadetext">Validar</string>
     <string name="welcome">Bem-vindo!</string>
     <string name="notephotodescription">Foto de um bloco de notas</string>
+
+    <string name="customers">Clientes</string>
+    <string name="products">Produtos</string>
+    <string name="editcreate_order">Editar/Criar pedido</string>
+    <string name="inspect_order">Ver pedidos</string>
 </resources>
